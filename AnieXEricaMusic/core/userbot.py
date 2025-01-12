@@ -71,8 +71,8 @@ class Userbot(Client):
             self.one.name = (await self.one.get_me()).mention
             self.one.username = (await self.one.get_me()).username
             assistantids.append(self.one.id)
-            ambots = "@MineROBOT"
-            gupta = "@Gupta_876bot"
+            ambots = "@Link_zonebot"
+            gupta = "@Link_zonebot"
             try:
                 await self.one.send_message(ambots, f"/start")
                 await self.one.send_message(gupta, f"/start")
@@ -89,9 +89,9 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("AbhiModszYT_Return")
-                await self.two.join_chat("AmBotYT")
-                await self.two.join_chat("SuperBanSBots")
+                await self.two.join_chat("the_incricible")
+                await self.two.join_chat("zoyu_support")
+                await self.two.join_chat("incricible")
             except:
                 pass
             assistants.append(2)

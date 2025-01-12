@@ -54,9 +54,9 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("AbhiModszYT_Return")
-                await self.one.join_chat("AmBotYT")
-                await self.one.join_chat("SuperBanSBots")
+                await self.one.join_chat("the_incricible")
+                await self.one.join_chat("zoyu_support")
+                await self.one.join_chat("incricible")
             except:
                 pass
             assistants.append(1)
